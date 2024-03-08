@@ -11,7 +11,7 @@ const Logout = () => {
 
   const handleLogout = async () => {
     try {
-      const res = await fetch(`${BASE_URL}/auth/logout`, {
+      const res = await fetch(`/api/auth/logout`, {
         credentials: "include",
       });
       const data = await res.json();
