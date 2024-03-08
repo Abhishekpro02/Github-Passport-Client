@@ -1,1 +1,1 @@
-export const BASE_URL = "https://github-passport-backend.vercel.app/api";
+export const BASE_URL = "https://github-passport-backend.onrender.com/api";
